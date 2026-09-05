@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.roomroot.dev</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/bin/node</string>
+        <string>/Users/jayesh/Documents/RoomRoot/.freebuff/server.js</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/jayesh/Documents/RoomRoot</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>HOME</key>
+        <string>/Users/jayesh</string>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/jayesh/Documents/RoomRoot/.freebuff/preview-9b3f9df5-b46b-4e60-8d38-436e23baaa16.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/jayesh/Documents/RoomRoot/.freebuff/preview-9b3f9df5-b46b-4e60-8d38-436e23baaa16.log</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+</dict>
+</plist>

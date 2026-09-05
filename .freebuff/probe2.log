@@ -1,0 +1,4 @@
+START
+PATH_OK
+/bin/sh: ./mvnw: Operation not permitted
+EXIT=126

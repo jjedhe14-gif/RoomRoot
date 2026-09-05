@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">RoomRoot</string>
+    <string name="title_activity_main">RoomRoot</string>
+    <string name="package_name">com.roomroot.app</string>
+    <string name="custom_url_scheme">com.roomroot.app</string>
+</resources>
