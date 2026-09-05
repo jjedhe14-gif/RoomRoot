@@ -53,7 +53,7 @@ export async function verifyCode(
 ): Promise<AuthResponse> {
   const normalizedEmail = email.trim().toLowerCase();
 const enteredCode = code.trim();
-  const response = await fetch(`${API_BASE_URL}/api/auth/verify-code`, {
+  const response = await fetch('/api/auth/verify-code', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
     body: JSON.stringify({ email: normalizedEmail, code: enteredCode, name: name?.trim() || undefined }),
@@ -106,5 +106,3 @@ export function saveProfileToStorage(email: string, profile: Partial<BackendUser
   profiles[email.trim().toLowerCase()] = { ...profiles[email.trim().toLowerCase()], ...profile };
  localStorage.setItem(PROFILE_KEY, JSON.stringify(profiles));
 }
-
-
